@@ -5,7 +5,10 @@ button.addEventListener("click", function() {
     let r = Math.floor(Math.random() * (256));
     let g = Math.floor(Math.random() * (256));
     let b = Math.floor(Math.random() * (256));
-    let randomColor = "#" + r.toString(16) + g.toString(16) + b.toString(16);
+    let red = r.toString(16).length <= 1 ? "0" + r.toString(16) : r.toString(16);
+    let green = g.toString(16).length <= 1 ? "0" + g.toString(16) : g.toString(16);
+    let blue = b.toString(16).length <= 1 ? "0" + b.toString(16) : b.toString(16);
+    let randomColor = "#" + red + green + blue;
     console.log(randomColor);
 
     // Assign this to body`s background color
