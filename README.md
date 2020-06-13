@@ -1,3 +1,5 @@
 # Color button
-My repository which contain very simple button which generate random background color
+
+My repository which contains simple button that generate random background color on click.
+
 Also this is my first commit to github :)
