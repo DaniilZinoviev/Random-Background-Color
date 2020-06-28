@@ -1,6 +1,5 @@
 # Color button
 
-My repository which contains simple button that generate random background color on click
+A simple button that generate random background color on click. 
 
-
-Also this is my first commit to github :)
+This is my first JS project I used and also my first commit to github :)
